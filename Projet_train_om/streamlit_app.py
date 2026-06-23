@@ -10,10 +10,10 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import joblib
+import os  
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder
 import warnings
-warnings.filterwarnings('ignore')
 
 # ============================================
 # CONFIGURATION DE LA PAGE
