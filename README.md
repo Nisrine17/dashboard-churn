@@ -1,6 +1,6 @@
 # 📱 Prédiction du Churn Client dans les Services Mobile Money
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dashboard-churn.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tableau-de-bord-churn-akkhlgmoqvrrnhwxkcnwv4.streamlit.app)
 
 ---
 
