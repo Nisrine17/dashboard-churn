@@ -3,7 +3,7 @@
 # Fichier : streamlit_app.py
 # Lancement : streamlit run streamlit_app.py
 # ============================================
-
+# Version 2 - 23 Juin 2026
 import streamlit as st
 import pandas as pd
 import numpy as np
