@@ -52,11 +52,23 @@ def load_data():
     return df
 
 @st.cache_resource
+@st.cache_resource
 def load_model():
-    try:
-        return joblib.load('modele_churn.pkl')
-    except:
-        return None
+    # Cherche à la racine
+    if os.path.exists('modele_churn.pkl'):
+        try:
+            return joblib.load('modele_churn.pkl')
+        except:
+            pass
+    
+    # Cherche dans le dossier Projet_train_om
+    if os.path.exists('Projet_train_om/modele_churn.pkl'):
+        try:
+            return joblib.load('Projet_train_om/modele_churn.pkl')
+        except:
+            pass
+    
+    return None
 
 # Chargement
 df = load_data()
